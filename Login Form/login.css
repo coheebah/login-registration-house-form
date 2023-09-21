@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.overall {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* background-image: url("/images/house.png" ); */
+margin-top: 30px;
+font-family: sans-serif;
+}
+
+
+
+.tit {
+    pisition: absolute;
+margin-top: 10px;
+    margin-left: 30%;
+    margin-bottom:30px;
+    color: green;
+}
+
+.form {
+ 
+    width:50%;
+    height: 35px;
+    padding: 20px;
+    margin: 30px;
+   color: red;
+}
+.ema {
+    margin-right: 20px;
+}
+
+
+
+.one {
+    
+ 
+  margin: 40px;
+}
+
+.submit {
+    width: 15%;
+ height: 20px;
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+
+.two {
+
+   
+    margin: 40px;
+}
+
+.image1 {
+    border-radius: 10%;
+    height: 80%;
+    width: 40%;
+    margin: 30px;
+    
+}

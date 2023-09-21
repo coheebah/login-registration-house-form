@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 215);
+}
+
+
+@media (max-width: 1231px) {}
+
+.parent{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+
+}
+
+.interior{
+margin-left: 11rem;
+margin-top: 7rem;
+width: 23.3rem;
+
+}
+#int{
+    margin-right: 30px;
+   
+}
+
+.decoration{
+    margin-left: 2rem;
+    margin-top: 7rem;
+    width: 23.3rem;
+}
+
+.exterior{
+    margin-left: 5rem;
+    margin-top: 7rem;
+    width: 23.3rem;
+}
+
+.planning{
+    margin-left: 7rem;
+    margin-top: 7rem;
+    width: 23.3rem;
+}
+
+.design{
+    margin-left: 10rem;
+    margin-top: 7rem;
+    width: 23.3rem;
+}
+.execution{
+    margin-left: 2rem;
+    margin-top: 7rem;
+    width: 23.3rem;
+}
+
+.house{
+    width: 26rem;
+    height: 20rem;
+    z-index: -1000px;
+   margin-bottom: 15rem;
+    margin-top: -50rem;
+    margin-left: 32rem;
+    position: relative;
+}
+
+.arrow{
+    z-index: -1290rem;
+    position: static;
+    margin-top: -8rem;
+    width: 4rem;
+    margin-bottom: 35rem;
+    margin-left: 30rem;
+}
